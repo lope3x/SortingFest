@@ -5,7 +5,7 @@ Este é um repositório para incentivar o uso de git e promover a contribuição
 # Sobre o SortingFest
 
 Crie um programa em qualquer linguagem que ordene um vetor **n** posições utilizando algum algoritmo de ordenação.
-Ex: "SortingFest/C++/QuickSort/main.cpp"
+Ex: "SortingFest/C++/quickSort.cpp"
 
 ## Exemplo de Funcionamento:
 
