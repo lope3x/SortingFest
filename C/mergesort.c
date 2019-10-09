@@ -58,7 +58,7 @@ int main(){
   for(i=0; i<n; i++) scanf("%d", &v[i]);
 
   mergesort(&v, n);
-  printf("Welcome to HacktoberFest!\n");
+  printf("Hello HacktoberFest!\n");
   for(i =0; i<n; i++) printf("%d ", v[i]);
   printf("\n");
   return 0;
