@@ -52,7 +52,7 @@ int main(){
   }
 
   merge_sort(v);
-  cout<< "Welcome to HacktoberFest!\n";
+  cout<< "Hello HacktoberFest!\n";
   for(int i =0; i<v.size(); i++) cout<< v[i] << " ";
   cout<< endl;
 
