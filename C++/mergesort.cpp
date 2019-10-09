@@ -12,10 +12,6 @@ void merge_sort(vector<int> &v){
   for(int i=0;i<v.size()/2;i++) u1.push_back(v[i]);
   for(int i=v.size()/2;i<v.size();i++) u2.push_back(v[i]);
 
-  for(int i = 0; i<v.size()/2; i++) cout<< u1[i]<< " ";
-  cout<< endl;
-  for(int i = 0; i<v.size()/2; i++) cout<< u2[i]<< " ";
-  cout<< endl;
 
   merge_sort(u1);
   merge_sort(u2);
@@ -46,7 +42,7 @@ int main(){
 
   vector<int> v;
   int n;
-  long long aux;
+  int aux;
 
   cin>> n;
 
